@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#000000</color>
+    <color name="primary_text">#26FF00</color>
+    <color name="primary_background">#C9DBFF</color>
+    <!-- Background color for main activity -->
+    <color name="background_main">#F3F4F6</color>
+    <color name="gray">#535353</color>
+    <color name="high_score_text">#3E2723</color>
+    <!-- Button background color -->
+    <color name="button_bg">#1976D2</color>
+
+    <!-- Button text color -->
+    <color name="button_text">#FFFFFF</color>
+    <color name="clear_high_scores_button_bg">#C62828</color>
+
+</resources>

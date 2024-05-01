@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".GameActivity"
+    android:background="@drawable/actback"
+    android:gravity="center_horizontal"
+   >
+
+    <!-- Round Number and Player Scores TextView -->
+    <TextView
+        android:id="@+id/roundInfoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:width="500dp"
+        android:textColor="@color/high_score_text"
+        android:text="Round 1 \n Player X: 0, Player O: 0"
+        android:paddingBottom="16dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/textview_background"/>
+
+    <!-- Game Status TextView -->
+    <TextView
+        android:id="@+id/gameStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/clear_high_scores_button_bg"
+        android:paddingBottom="16dp"
+        android:text="Game Status: Not Started"
+        android:background="@drawable/textview_background"
+        android:gravity="center_horizontal" />
+
+
+    <!-- GridLayout for the game buttons -->
+    <GridLayout
+        android:layout_marginTop="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:tag="0"
+            android:textSize="44sp"
+            android:layout_margin="3dp"
+            android:backgroundTint="@android:color/black"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:padding="8dp"
+
+            />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:tag="1"
+            android:textSize="44sp"
+            android:layout_margin="3dp"
+            android:backgroundTint="@android:color/black"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:padding="8dp"
+
+
+
+
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:tag="2"
+            android:layout_margin="3dp"
+            android:textSize="44sp"
+            android:backgroundTint="@android:color/black"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:tag="3"
+            android:layout_margin="3dp"
+            android:textSize="44sp"
+            android:backgroundTint="@android:color/black"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:tag="4"
+            android:layout_margin="3dp"
+            android:textSize="44sp"
+            android:backgroundTint="@android:color/black"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:tag="5"
+            android:layout_margin="3dp"
+            android:textSize="44sp"
+            android:backgroundTint="@android:color/black"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:tag="6"
+            android:layout_margin="3dp"
+            android:textSize="44sp"
+            android:backgroundTint="@android:color/black"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:tag="7"
+            android:layout_margin="3dp"
+            android:textSize="44sp"
+            android:backgroundTint="@android:color/black"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:tag="8"
+
+            android:layout_margin="3dp"
+            android:textSize="44sp"
+            android:backgroundTint="@android:color/black"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:padding="8dp" />
+    </GridLayout>
+
+    <!-- Start Game Button -->
+    <Button
+        android:id="@+id/startGameBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/clear_high_scores_button_bg"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/goToMainMenuBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:backgroundTint="@color/button_bg"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp" />
+
+
+</LinearLayout>
