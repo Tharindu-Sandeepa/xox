@@ -22,7 +22,7 @@ class GameActivity : AppCompatActivity(), View.OnClickListener {
         binding = ActivityGameBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        sharedPreferences = getSharedPreferences("highScores", Context.MODE_PRIVATE)
+        sharedPreferences = getSharedPreferences("highScores", MODE_PRIVATE)
         editor = sharedPreferences.edit()
 
         // onclick listeners for game buttons
