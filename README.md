@@ -13,7 +13,7 @@
 - The round winner will be displayed at the end of each round.
 - After the game, the scores are updated, and you can play again or go back to the main menu.
 
-<img src="assets/main.png"  width="200"  align="center"/></div>
+<img src="assets/main.png"  width="200"  align="center"/><img src="assets/game.png"  width="200"  align="center"/>
 
 ## Features and Technologies
 
