@@ -13,5 +13,24 @@
 - The round winner will be displayed at the end of each round.
 - After the game, the scores are updated, and you can play again or go back to the main menu.
 
+## Features and Technologies
+
+### Shared Preferences
+
+- **Scorekeeping**: The app uses shared preferences to keep track of player scores and high scores. This allows for the scores to persist even after the app is closed or the device is restarted.
+- **High Score Tracking**: High scores are stored using shared preferences, enabling the app to remember and display the highest scores across multiple gameplay sessions.
+
+### Intents
+
+- **Navigation**: The app utilizes intents to navigate between different screens such as the main menu and the gameplay screen, providing a smooth and intuitive user experience.
+
+### User Interface (UI)
+
+- **Design**: The UI is designed to be clean and easy to navigate, with a focus on user experience.
+- **Buttons**: Buttons are styled for a modern appearance with rounded corners and distinct colors.
+- **Text Views**: The app includes text views to display information such as scores, rounds, and game status.
+- **Background**: Custom background images and colors are used to enhance the visual appeal of the app.
+
+## Screenshots
 
 
