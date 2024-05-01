@@ -1,0 +1,3 @@
+Description:
+“XOX” is an android based gaming app. it is a “Tic Tac Toe” game. Two players can play this game one is “X”, and one is “O”. Key features of the app include scorekeeping, high score tracking, and the ability to reset high scores (Using shared preference). Players can easily navigate between the main menu and the game screen. Users can see highest scores in the main menu. Also, they can reset highest scores using ‘Clear highest score’ button. In gameplay users can play 5 rounds. They can see their scores and the round numbers on the top. 
+![image](https://github.com/Tharindu-Sandeepa/xox/assets/127717448/dbaccad7-fc1d-4c8f-b471-99bbbf22f641)
