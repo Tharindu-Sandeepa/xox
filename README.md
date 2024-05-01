@@ -14,7 +14,7 @@
 - After the game, the scores are updated, and you can play again or go back to the main menu.
 
 <div style="text-align: center;">
-    <img src="assets/main.png" width="200" style="margin-right: 20px;" />
+    <img src="assets/main.png" width="200" style="margin-right: 50px;" />
     <img src="assets/game.png" width="200" />
 </div>
 
