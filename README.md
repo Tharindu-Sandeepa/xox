@@ -12,7 +12,8 @@
 - The game is over after 5 rounds.
 - The round winner will be displayed at the end of each round.
 - After the game, the scores are updated, and you can play again or go back to the main menu.
-
+- 
+## Screenshots
 <div style="text-align: center;">
     <img src="assets/main.png" width="200" style="margin-right: 50px;" />
     <img src="assets/game.png" width="200" />
@@ -37,6 +38,6 @@
 - **Text Views**: The app includes text views to display information such as scores, rounds, and game status.
 - **Background**: Custom background images and colors are used to enhance the visual appeal of the app.
 
-## Screenshots
+
 
 
